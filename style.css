@@ -1,15 +1,21 @@
 body {
     background: url("https://images.unsplash.com/photo-1429823040067-2c31b1d637ae?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=66e6203a23411a1b8a09a6da85a33fca&auto=format&fit=crop&w=700&q=60");
+    background-repeat: no-repeat;
+    background-position: center;
     font-family: 'Source Serif Pro', serif;
 }
 
-#bio {
+#bio,#contactinfo {
     display: flex;
     flex-direction: column;
     margin-bottom: 50px;
     background-color:#825e5c;
     color:white;
     font-size:20px;
+}
+
+.photoprojects {
+    height: 60px;
 }
 
 #copy {
